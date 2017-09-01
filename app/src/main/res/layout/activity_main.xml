@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/_strt_tracking"
+            android:layout_width="wrap_content"
+            android:background="@drawable/btn_drawable"
+            android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:text="Start tracking"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/_stop_tracking"
+            android:layout_width="wrap_content"
+            android:background="@drawable/btn_drawable"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Stop tracking"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/_show_route"
+            android:layout_width="wrap_content"
+            android:background="@drawable/btn_drawable"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="  Show Route  "/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/_list_route"
+            android:layout_width="wrap_content"
+            android:background="@drawable/btn_drawable"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="    Route List    "/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/_clear_storage"
+            android:layout_width="wrap_content"
+            android:background="@drawable/btn_drawable"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Clear Storeage"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

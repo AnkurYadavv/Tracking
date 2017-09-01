@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize theme here. -->
+
+        <item name="colorPrimary">@color/themeBlue</item>
+        <!-- status bar color-->
+        <item name="colorPrimaryDark">@color/themeBlue</item>
+
+    </style>
+
+</resources>
